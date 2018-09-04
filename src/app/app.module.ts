@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 // Modulos Personalizados:
 import { PagesModule } from './pages/pages.module';
 // Rutas Principales:
@@ -18,7 +19,8 @@ import { RegisterComponent } from './login/register.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
