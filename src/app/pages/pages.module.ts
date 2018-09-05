@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+// Gráficas:
+import { ChartsModule } from 'ng2-charts';
 // Modulos:
 import { SharedModule } from '../shared/shared.module';
 // Rutas:
@@ -23,7 +25,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     imports: [
         SharedModule,
         PAGES_ROUTES,
-        FormsModule
+        FormsModule,
+        ChartsModule
     ],
     exports: [
         DashboardComponent,
