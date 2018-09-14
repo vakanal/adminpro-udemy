@@ -13,6 +13,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 // temporal:
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        IncrementadorComponent
+        IncrementadorComponent,
+        GraficoDonaComponent
     ],
     imports: [
         SharedModule,
